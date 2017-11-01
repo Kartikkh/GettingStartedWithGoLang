@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83877386-aaef-428a-8dc5-b86e315e8f69" name="Default" comment="" />
+    <list default="true" id="83877386-aaef-428a-8dc5-b86e315e8f69" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basics/copyFunction.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basics/methordExample.go" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ReverseSlice.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swapTwoNumbers.go" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,23 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="swapTwoNumbers.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/swapTwoNumbers.go">
+      <file leaf-file-name="copyFunction.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Basics/copyFunction.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-322">
-              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding>
-                <element signature="e#14#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReverseSlice.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReverseSlice.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="68">
+              <caret line="4" column="97" lean-forward="false" selection-start-line="4" selection-start-column="97" selection-end-line="4" selection-end-column="97" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
@@ -46,6 +41,9 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -53,6 +51,8 @@
         <option value="$PROJECT_DIR$/swapk.go" />
         <option value="$PROJECT_DIR$/ReverseSlice.go" />
         <option value="$PROJECT_DIR$/swapTwoNumbers.go" />
+        <option value="$PROJECT_DIR$/Basics/copyFunction.go" />
+        <option value="$PROJECT_DIR$/Basics/InterfaceExample.go" />
       </list>
     </option>
   </component>
@@ -68,6 +68,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -90,6 +91,11 @@
             <path>
               <item name="awesomeProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="awesomeProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesomeProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesomeProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -114,13 +120,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Application.swapTwoNumbers.go">
+  <component name="RunManager" selected="Go Application.InterfaceExample.go">
+    <configuration name="InterfaceExample.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Basics/InterfaceExample.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="ReverseSlice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/ReverseSlice.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="copyFunction.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Basics/copyFunction.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="swapTwoNumbers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -139,16 +161,20 @@
       <filePath value="$PROJECT_DIR$/swapk.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Application.swapk.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Application.ReverseSlice.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Application.swapTwoNumbers.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Application.copyFunction.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Application.InterfaceExample.go" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Go Application.swapTwoNumbers.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Application.swapk.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Application.ReverseSlice.go" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Application.InterfaceExample.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Application.copyFunction.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Application.swapTwoNumbers.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Application.swapk.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Application.ReverseSlice.go" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +190,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296355" sideWeight="0.50292826" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296355" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -198,9 +224,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -208,6 +232,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-322">
           <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/methordExample.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="123" lean-forward="false" selection-start-line="19" selection-start-column="123" selection-end-line="19" selection-end-column="123" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/InterfaceExample.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/copyFunction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="97" lean-forward="false" selection-start-line="4" selection-start-column="97" selection-end-line="4" selection-end-column="97" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>
